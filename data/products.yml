@@ -1,4 +1,21 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Midorin
+  description: A Ruby-On-Rails app to help you taking care of your plants. API call, chatroom, Line bot and scanner feature.
+  position: Product-manager (2 weeks group project)
+  image: easylabel.png
+  url: https://www.midorin.one/
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+
+- name: The Central Gaijin Library
+  description: A marketplace app where users can rent books from each others. Designed for mobile first with API call, Devise, Pundit and Mapbox.
+  position: Front-End lead (1 week group project)
+  image: easylabel.png
+  url: http://cgl-hundibar.herokuapp.com/
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
