@@ -2,5 +2,52 @@
 @import "home";
 body {
     background-color: rgb(14, 13, 13);
-    color: rgb(236, 230, 230);
+    text-align: center;
+    font-family: monospace;
+}
+
+p, li {
+    color: rgb(228, 205, 205);
+    // font-family: monospace;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:rgb(255, 146, 110)
+}
+
+.fab {
+    color: rgba(255, 146, 110, 0.883);
+    opacity: 0.15;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 15px 10px;
+}
+
+.fab:hover {
+    opacity: 1;
+}
+
+
+.orange-box1 {
+    box-shadow: -10px -10px 5px 5px rgba(rgb(255, 146, 110), 0.2);
+    padding: 25px;
+    margin: 65px 5px 30px 5px; 
+    border-radius: 5px;
+}
+
+.orange-box2 {
+    box-shadow: 10px -10px 5px 5px rgba(rgb(255, 146, 110), 0.2);
+    padding: 25px;
+    margin: 65px 5px 30px 5px; 
+    border-radius: 5px;
+}
+
+
+// Small devices
+@media (max-width: 480px) {
+    .orange-box1 {
+    padding:5px;
+    margin: 65px 2px 30px 2px; 
+}
 }
