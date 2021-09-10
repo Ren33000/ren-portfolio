@@ -4,6 +4,21 @@
     
     <h5>The technical skills</h5>
     <h6>Front End</h6>
+
+    <div class="item-drawer">
+      <div class="item-drawer-content">
+      </div>
+      <div class="item-drawer-button">
+      </div>
+      <div class="item-drawer-settings">
+      </div>
+    </div>
+
+  
+
+
+
+
     <ul>
       <li>Html & CSS</li>
       <li>Bootstrap</li>
@@ -35,42 +50,41 @@
   </div>
 
   <div class="container">
-    <h3>My web projects</h3>
-      
-      <div class="content">
-        <h3>My watchlist</h3>
-        <p>
-          <i><i class="fas fa-user-tag"></i> Full-stack developer (2 days solo project)</i>
-        </p>
-        <p>
-            A simple app where you can create and manage your movie lists (API call + Cloudinary).
-        </p>
-      </div>
-
-      <div class="content">
-        <h3>The Central Gaijin Library</h3>
-        <p>
-          <i><i class="fas fa-user-tag"></i> Front-End lead (1 week group project)</i>
-        </p>
-        <p>
-          A marketplace app where users can rent books from each others. Designed for mobile first.
-          Tech used: API call, Devise, Pundit, Mapbox.
-          <p> My presentation of the app mid-way finished
-          <a href="https://youtu.be/V3R7pNjc1dY?t=861" target="blank">YouTube</a></p>
-         </p>
-      </div>
-
     
-      <div class="content">
-        <h3>Longest game</h3>
-        <p>
-            <i><i class="fas fa-user-tag"></i> Product-manager (2 weeks group project)</i>
-        </p>
-        <p>
-            Final group project, an app to take care of your plants. Smart seeds and API, chatroom and scanner feature.
-        </p>
-      </div>
 
   </div>
+
+
+
 </div>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="main-container" id="projects" style="margin-bottom: 0;background-color: transparent;padding-bottom: 0">
+        <h2>Projects</h2>
+      </div>
+      <div class="cards" style="padding-top: 4px;">
+        <% data.products.each do |product| %>
+          <div>
+            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path(product.image) %>)">
+              <div class="card-description">
+                <h5><%= product.name %></h5>
+                <p><%= product.description %></p>
+                <div class="d-flex justify-content-between align-items-center mt-1">
+                  <div class="card-tags">
+                    <% product.tags.each do |tag| %>
+                      <span><i class="<%= tag %>"></i></span>
+                    <% end %>
+                  </div>
+                  <% link_to product.url, class: 'external-link', target: '_blank' do %>
+                    <i class="fas fa-external-link-alt"></i>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
 
