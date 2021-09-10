@@ -9,15 +9,22 @@ body {
     color: rgb(228, 205, 205);
 }
 
+
 // p, li {
 //     color: rgb(228, 205, 205);
 //     // font-family: monospace;
 
 // }
 
-// h1, h2, h3, h4, h5, h6 {
-//     color:rgb(214, 208, 206)
-// }
+h1, h2 {
+    font-family: "Poppins", "Helvetica", "sans-serif";
+    // font-size: 55px;
+    border-bottom: 12px solid #883820;
+    display: inline-block;
+    line-height: 0.4;
+    margin: 35px 2px 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
 
 // Fontawesome icons
 .fab, .fas {
@@ -34,6 +41,10 @@ body {
 
 
 // containers
+
+.fixed-top-killer{
+    padding-top: 5%;
+}
 .orange-box1 {
     box-shadow: -10px -10px 5px 5px rgba(rgb(255, 146, 110), 0.2);
     padding: 25px;
@@ -55,5 +66,19 @@ body {
     .orange-box1 {
     padding:5px;
     margin: 65px 2px 30px 2px; 
+    }
+    .fixed-top-killer{
+    padding-top: 15%;
+    }   
 }
+
+// Ipad
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .fixed-top-killer{
+    padding-top: 20%;
+    } 
+
 }
