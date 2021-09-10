@@ -1,7 +1,8 @@
 - name: Midorin
-  description: A Ruby-On-Rails app to help you taking care of your plants. API call, chatroom, Line bot and scanner feature.
-  position: Product-manager (2 weeks group project)
+  description: A Ruby-On-Rails app to help you taking care of your plants. 
+  position: Product-manager
   image: banner.jpg
+  github: https://github.com/Ren33000/rails-watch-list
   url: https://www.midorin.one/
   tags:
     - devicon-rails-plain-wordmark
@@ -9,9 +10,9 @@
     - devicon-heroku-original
     - devicon-javascript-plain
 
-- name: The Central Gaijin Library
-  description: A marketplace app where users can rent books from each others. Designed for mobile first with API call, Devise, Pundit and Mapbox.
-  position: Front-End lead (1 week group project)
+- name: Central Gaijin Library
+  description: A marketplace app where users can rent books from each others. 
+  position: Front-End lead
   image: banner.jpg
   url: http://cgl-hundibar.herokuapp.com/
   tags:
@@ -21,9 +22,10 @@
     - devicon-javascript-plain
 
 - name: Ren's Watchlist
-  description: A simple app where you can create and manage your movie lists (API call + Cloudinary).
-  position: Full-stack developer (2 days solo project)
+  description: A simple app where you can create and manage your movie lists.
+  position: Full-stack developer 
   image: banner.jpg
+  github: https://github.com/Ren33000/rails-watch-list
   url: http://cgl-hundibar.herokuapp.com/
   tags:
     - devicon-rails-plain-wordmark

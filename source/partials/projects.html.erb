@@ -1,63 +1,5 @@
-<div class="container", id="projects">
-  <div class="orange-box2">
-    <h3>The coder</h3>
-    
-    <h5>The technical skills</h5>
-    <h6>Front End</h6>
-
-    <div class="item-drawer">
-      <div class="item-drawer-content">
-      </div>
-      <div class="item-drawer-button">
-      </div>
-      <div class="item-drawer-settings">
-      </div>
-    </div>
-
-  
-
-
-
-
-    <ul>
-      <li>Html & CSS</li>
-      <li>Bootstrap</li>
-      <li>JavaScript ES6</li>
-      <li>React</li>
-      <li>Scss</li>
-      <li>Figma</li>
-    </ul>
-    <h6>Back End</h6>
-    <ul>
-      <li>Ruby</li>
-      <li>Ruby on Rails</li>
-      <li>SQL and PostgreSQL</li>
-      <li>Git and Github</li>
-      <li>Heroku and Netlify</li>
-    </ul>
-
-    <h5>The soft skills</h5>
-      <ul>
-        <li>Communication</li>
-        <li>Team-work and collaboration</li>
-        <li>Accountability</li>
-        <li>Creativity</li>
-        <li>Open-mindedness and adaptability</li>
-        <li>Self-learning</li>
-        <li>Patience</li>
-        <li>Empathy</li>
-      </ul>
-  </div>
-
-  <div class="container">
-    
-
-  </div>
-
-
-
-</div>
-
+<div class="container mt-3">
+  <div class="orange-box1 mt-5">
   <div class="row">
     <div class="col-12">
       <div class="main-container" id="projects" style="margin-bottom: 0;background-color: transparent;padding-bottom: 0">
@@ -69,6 +11,7 @@
             <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= image_path(product.image) %>)">
               <div class="card-description">
                 <h5><%= product.name %></h5>
+                <i><p><%= product.position %></p></i>
                 <p><%= product.description %></p>
                 <div class="d-flex justify-content-between align-items-center mt-1">
                   <div class="card-tags">
@@ -76,8 +19,11 @@
                       <span><i class="<%= tag %>"></i></span>
                     <% end %>
                   </div>
-                  <% link_to product.url, class: 'external-link', target: '_blank' do %>
-                    <i class="fas fa-external-link-alt"></i>
+                    <% link_to product.github, class: 'external-link', target: '_blank' do %>
+                       <p><i class="fab fa-github"></i></p>
+                      <% end %>
+                    <% link_to product.url, class: 'external-link', target: '_blank' do %>
+                        <i class="fas fa-external-link-alt"></i>
                   <% end %>
                 </div>
               </div>
@@ -87,4 +33,6 @@
       </div>
     </div>
   </div>
+
+  </div id="contact">
 

@@ -1,7 +1,7 @@
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 240px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,13 +13,13 @@
 
 .card-description {
   background-color: white;
-  padding: 24px;
+  padding: 10px;
   margin-top: -24px;
   position: absolute;
-  bottom: -108px;
-  width: 85%;
+  bottom: -170px;
+  width: 90%;
   border-radius: 5px;
-  height: 154px;
+  height: 230px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   flex-direction: column;
@@ -45,15 +45,17 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-gap: 135px;
   // background-color: white;
   padding: 24px;
+  padding-bottom: 130px;
 }
 
 .external-link {
   margin-left: 8px;
+  color: red;
   opacity: 0;
-  color: grey;
+  // color: grey;
   transition: opacity 1s;
   &:hover {
     cursor: pointer;
