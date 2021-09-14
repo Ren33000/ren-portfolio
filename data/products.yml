@@ -1,8 +1,8 @@
 - name: Midorin
-  description: A Ruby-On-Rails app to help you taking care of your plants. 
+  description: A mobile app to help you taking care of your plants. 
   position: Product-manager
-  image: banner.jpg
-  github: https://github.com/Ren33000/rails-watch-list
+  image: midorin.png
+  github: https://github.com/HundiBar/Midorin
   url: https://www.midorin.one/
   tags:
     - devicon-rails-plain-wordmark
@@ -13,7 +13,8 @@
 - name: Central Gaijin Library
   description: A marketplace app where users can rent books from each others. 
   position: Front-End lead
-  image: banner.jpg
+  image: CGL.png
+  github: https://github.com/HundiBar/central-gaijin-library
   url: http://cgl-hundibar.herokuapp.com/
   tags:
     - devicon-rails-plain-wordmark
@@ -22,11 +23,11 @@
     - devicon-javascript-plain
 
 - name: Ren's Watchlist
-  description: A simple app where you can create and manage your movie lists.
+  description: A Rails app where you can create and manage your movie lists.
   position: Full-stack developer 
-  image: banner.jpg
+  image: watchlist2.png
   github: https://github.com/Ren33000/rails-watch-list
-  url: http://cgl-hundibar.herokuapp.com/
+  url: http://ren-watchlist.herokuapp.com/
   tags:
     - devicon-rails-plain-wordmark
     - devicon-bootstrap-plain-wordmark

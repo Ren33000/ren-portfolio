@@ -1,6 +1,7 @@
 .card-category {
   background-size: cover;
   background-position: center;
+  // width: 315px;
   height: 260px;
   display: flex;
   justify-content: center;
@@ -16,7 +17,7 @@
   padding: 5px;
   margin-top: -24px;
   position: absolute;
-  bottom: -235px;
+  bottom: -220px;
   width: 90%;
   border-radius: 5px;
   height: 300px;
@@ -44,8 +45,9 @@
 }
 
 .cards {
+  margin-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 135px;
   padding: 24px;
   padding-bottom: 150px;
@@ -70,7 +72,7 @@
 .external-link {
   margin-left: 8px;
   color: black;
-  opacity: 0;
+  opacity: 1;
   // color: grey;
   transition: opacity 1s;
   &:hover {
@@ -81,18 +83,8 @@
 
 
 
-// Smallest device
-@media (min-width: 100px) and (max-width: 575px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
-  .external-link {
-    opacity: 1;
-  }
-}
-
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .cards {
     grid-template-columns: 1fr;
   }
@@ -101,26 +93,3 @@
   }
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .cards {
-    grid-template-columns: 1fr 1fr;
-  }
-  .external-link {
-    opacity: 0;
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
