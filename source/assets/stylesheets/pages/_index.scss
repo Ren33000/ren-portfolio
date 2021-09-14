@@ -16,7 +16,7 @@ body {
 
 // }
 
-h1, h2 {
+h2 {
     font-family: "Poppins", "Helvetica", "sans-serif";
     // font-size: 55px;
     border-bottom: 12px solid #883820;
@@ -43,18 +43,21 @@ h1, h2 {
 // containers
 
 .fixed-top-killer{
-    padding-top: 5%;
+    padding-top: 80px;
+    
 }
 .orange-box1 {
     border-left: 1px solid #eb5c33;
-    border-top: 1px solid #eb5c33;
+    // border-top: 1px solid #eb5c33;
     padding: 3%;
+    // margin-top: 80px;
 }
 
 .orange-box2 {
     border-right: 1px solid #eb5c33;
-    border-top: 1px solid #eb5c33;
+    // border-top: 1px solid #eb5c33;
     padding: 3%;
+    // margin-top: 80px;
 
 }
 

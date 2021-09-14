@@ -1,5 +1,6 @@
 import 'bootstrap';
 import Typed from 'typed.js';
+import AOS from 'aos';
 
 if (document.getElementById("animate")) {
   
@@ -10,3 +11,4 @@ new Typed('#animate', {
   });
 }
 
+ AOS.init();

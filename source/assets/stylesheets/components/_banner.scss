@@ -25,3 +25,21 @@
     padding: 17%;
     }
 }
+
+
+
+
+
+.profile-img {
+    width: 45%;
+    background-image: linear-gradient(rgba(0,0,0,0.4));
+    border-radius: 5%;
+}
+
+
+// Small devices
+@media (max-width: 480px) {
+    .profile-img {
+    width: 90%;
+    }
+}
