@@ -2,7 +2,7 @@
     background-image: linear-gradient(75deg, #EB5C33 0%, #0000 100%);
     display: flex;
     align-items: center;
-    color: rgba(218, 211, 211, 0.74);
+    // color: rgba(218, 211, 211, 0.74);
     flex-direction: column;
     height: 85px;
     justify-content: center;
@@ -11,10 +11,12 @@
 
 .footer-copyright {
     margin-top: 10px;
+    font-family: $headers-font;
+    font-size: 15px;
 }
 
 .footer-copyright p {
-    color: #000;
+    color: #060606;
 }
 
 // Small devices

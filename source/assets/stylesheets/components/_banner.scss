@@ -15,6 +15,24 @@
     padding: 5%;
 }
 
+#name-gradient {
+    background-image: linear-gradient(to right, #0000,#3a362f, #ee9b2e, #EB5C33);
+    -webkit-background-clip: text; 
+        background-clip: text; 
+    color: transparent;
+    
+    background-size: 300%;
+    background-position: -100%;  
+    
+    animation: animatedText 8s infinite alternate-reverse;
+}
+
+@keyframes animatedText{
+  to{
+    background-position: 100%; 
+    }
+}
+
 
 // Small devices
 @media (max-width: 480px) {

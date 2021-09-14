@@ -1,86 +1,11 @@
 // Import page-specific CSS files here.
 @import "home";
 
-body {
-    background-color: rgb(14, 13, 13);
-    text-align: center;
-    font-family: monospace;
-    margin: 0;
-    color: rgb(228, 205, 205);
-}
 
 
-// p, li {
-//     color: rgb(228, 205, 205);
-//     // font-family: monospace;
-
-// }
-
-h2 {
-    font-family: "Poppins", "Helvetica", "sans-serif";
-    // font-size: 55px;
-    border-bottom: 12px solid #883820;
-    display: inline-block;
-    line-height: 0.4;
-    margin: 35px 2px 20px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-}
-
-// Fontawesome icons
-.fab, .fas {
-    color: rgba(255, 146, 110, 0.883);
-    opacity: 0.15;
-    text-decoration: none;
-    font-size: 40px;
-    padding: 15px 10px;
-}
-
-.fab:hover, .fas:hover {
-    opacity: 1;
-}
 
 
-// containers
-
-.fixed-top-killer{
-    padding-top: 80px;
-    
-}
-.orange-box1 {
-    border-left: 1px solid #eb5c33;
-    // border-top: 1px solid #eb5c33;
-    padding: 3%;
-    // margin-top: 80px;
-}
-
-.orange-box2 {
-    border-right: 1px solid #eb5c33;
-    // border-top: 1px solid #eb5c33;
-    padding: 3%;
-    // margin-top: 80px;
-
-}
 
 
-// Media queries
-// Small devices
-@media (max-width: 480px) {
-    // .orange-box1 {
-    // padding:5px;
-    // margin: 65px 2px 30px 2px; 
-    // }
-    .fixed-top-killer{
-    padding-top: 15%;
-    }   
-}
 
-// Ipad
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .fixed-top-killer{
-    padding-top: 20%;
-    } 
 
-}
