@@ -5,22 +5,20 @@
 
 }
 .orange-box1 {
-    border-left: 1px solid #eb5c33;
-    // border-top: 1px solid #eb5c33;
+    border-left: 1px solid #8a5849;
     padding: 3%;
-    // margin-top: 80px;
+    margin-bottom: 15%;
+
 }
 
 .orange-box2 {
-    border-right: 1px solid #eb5c33;
-    // border-top: 1px solid #eb5c33;
+    border-right: 1px solid #8a5849;
     padding: 3%;
-    // margin-top: 80px;
-
+    margin-bottom: 15%;
 }
 
 
-// Media queries
+
 // Small devices
 @media (max-width: 480px) {
     .fixed-top-killer{

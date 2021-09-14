@@ -29,6 +29,6 @@
   url: http://cgl-hundibar.herokuapp.com/
   tags:
     - devicon-rails-plain-wordmark
-    - devicon-postgresql-plain-wordmark
+    - devicon-bootstrap-plain-wordmark
     - devicon-heroku-original
-    - devicon-javascript-plain
+    - devicon-sass-plain

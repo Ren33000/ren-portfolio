@@ -12,21 +12,22 @@
 }
 
 .card-description {
-  background-color: white;
-  padding: 10px;
+  background-image: linear-gradient(210deg, #000000 0%, #EB5C33 100%);
+  padding: 5px;
   margin-top: -24px;
   position: absolute;
-  bottom: -170px;
+  bottom: -235px;
   width: 90%;
   border-radius: 5px;
-  height: 230px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 300px;
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   span {
-    color: grey;
-    font-size: 22px;
+    color: #ffffff;
+    font-size: 25px;
   }
   p {
     margin-bottom: 4px;
@@ -46,14 +47,29 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 135px;
-  // background-color: white;
   padding: 24px;
-  padding-bottom: 130px;
+  padding-bottom: 150px;
 }
+
+.card-description .fab {
+  color: black;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;} 
+}
+
+.card-description .fas {
+  color: black;
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;} 
+}
+
+
 
 .external-link {
   margin-left: 8px;
-  color: red;
+  color: black;
   opacity: 0;
   // color: grey;
   transition: opacity 1s;
