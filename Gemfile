@@ -14,4 +14,5 @@ group :test do
   gem 'cucumber'
   gem 'rspec'
   gem 'selenium-webdriver'
+  gem 'middleman-dotenv'
 end

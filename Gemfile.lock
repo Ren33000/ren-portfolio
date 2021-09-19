@@ -119,6 +119,9 @@ GEM
       toml
       uglifier (~> 3.0)
       webrick
+    middleman-dotenv (2.0.0)
+      dotenv (>= 2.0)
+      middleman-core (>= 4.0)
     middleman-gh-pages (0.4.1)
       rake (> 0.9.3)
     middleman-metaman (0.1.11)
@@ -212,6 +215,7 @@ DEPENDENCIES
   font-awesome-sass (~> 5.13.0)
   middleman
   middleman-autoprefixer
+  middleman-dotenv
   middleman-gh-pages
   middleman-metaman
   rake
