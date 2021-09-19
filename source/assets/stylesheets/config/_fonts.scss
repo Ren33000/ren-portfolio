@@ -18,13 +18,34 @@ $headers-font: 'Permanent Marker', cursive;
 // $my-font: "Font Name";
 
 
-p, li, h1, h4 {
-    color: #ccc3c3;   
+p, li, h4 {
+    color: #ccc3c3; 
+    text-shadow: 1px 1px 3px rgba(210, 192, 192, 0.4);  
 }
 
-p, li {
-        font-size: 18px;
+p, h1, li {
+  color: #ccc3c3; 
+  font-size: 18px;
+}
+
+h3 {
+  
+    background-image: linear-gradient(to right, #0000,#3a362f, #ee9b2e, #EB5C33);
+    -webkit-background-clip: text; 
+        background-clip: text; 
+    color: transparent;
+    
+    background-size: 300%;
+    background-position: -100%;  
+  
+
+@keyframes animatedText{
+  to{
+    background-position: 100%; 
     }
+}
+
+}
 
 h2 {
     color: #ccc3c3;
@@ -32,9 +53,10 @@ h2 {
     display: inline-block;
     line-height: 0.4;
     margin: 35px 2px 20px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 3px rgba(109, 106, 106, 0.4);
 }
 
+// separator for h2 title
 .div1 {
 //   font-family: "Share Tech Mono", monospace;
 //   color: #fff;

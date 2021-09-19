@@ -1,34 +1,19 @@
-// .avatar {
-//   width: 40px;
-//   border-radius: 50%;
-// }
-// .avatar-large {
-//   width: 56px;
-//   border-radius: 50%;
-// }
-// .avatar-bordered {
-//   width: 40px;
-//   border-radius: 50%;
-//   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-//   border: white 1px solid;
-// }
-// .avatar-square {
-//   width: 40px;
-//   border-radius: 0px;
-//   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-//   border: white 1px solid;
-// }
 
 .profile-img {
     width: 100%;
     max-width: 380px;
     min-height: 350px;
-    // background-size: cover;
     background-position: 50% 50%;
     object-fit: cover;
-    border-radius: 5px;
-    align-content: center;
-    
+    align-content: center; 
+    border: 1px solid #383232;
+    border-radius: 2px;
+    padding: 13px;
+    box-shadow: 0 0 15px #131212;
+}
+
+img {
+  box-shadow: 0 0 15px #2b2a29; 
 }
 
 ul {
