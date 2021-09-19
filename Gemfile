@@ -8,6 +8,7 @@ gem 'rake'
 gem 'rubocop'
 
 gem 'font-awesome-sass', '~> 5.13.0'
+gem 'cloudinary', '~> 1.16.0'
 
 group :test do
   gem 'capybara'
