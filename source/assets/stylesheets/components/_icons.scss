@@ -2,7 +2,7 @@
 .devicon {
   color: rgba(255, 146, 110, 0.883);
   text-decoration: none;
-  font-size: 50px;
+  font-size: 80px;
   padding: 15px 10px;
 }
 
@@ -10,13 +10,17 @@
 // Fontawesome icons
 .fab, .fas {
     color: rgba(255, 146, 110, 0.883);
-    opacity: 0.15;
+    opacity: 0.5;
     text-decoration: none;
-    font-size: 40px;
-    padding: 15px 10px;
+    font-size: 27px;
+    padding: 15px 0px;
 }
 
 .fab:hover, .fas:hover {
     opacity: 1;
 }
 
+#contact-icons {
+  padding: 30px 25px;
+  font-size: 50px;
+}

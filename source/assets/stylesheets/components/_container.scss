@@ -1,28 +1,28 @@
 // containers
 
 .fixed-top-killer{
-    padding-top: 80px;
+    padding-top: 10%;
 
 }
-.orange-box1 {
-    border-left: 1px solid #8a5849;
-    padding: 3%;
-    margin-bottom: 15%;
+// .orange-box1 {
+//     border-left: 1px solid #8a5849;
+//     padding: 5%;
+//     margin-bottom: 15%;
 
-}
+// }
 
-.orange-box2 {
-    border-right: 1px solid #8a5849;
-    padding: 3%;
-    margin-bottom: 15%;
-}
+// .orange-box2 {
+//     border-right: 1px solid #8a5849;
+//     padding: 5%;
+//     margin-bottom: 15%;
+// }
 
 
 
 // Small devices
 @media (max-width: 480px) {
     .fixed-top-killer{
-    padding-top: 15%;
+    padding-top: 25%;
     }   
 }
 

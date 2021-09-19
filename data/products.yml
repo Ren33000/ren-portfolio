@@ -1,7 +1,7 @@
 - name: Midorin
   description: A mobile app to help you taking care of your plants. 
-  position: Product-manager
-  image: midorin.png
+  position: Project-manager
+  image: "https://res.cloudinary.com/ren33000/image/upload/v1632050504/midorin_hav35c.png"
   github: https://github.com/HundiBar/Midorin
   url: https://www.midorin.one/
   tags:
