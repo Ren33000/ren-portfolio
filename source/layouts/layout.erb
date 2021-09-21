@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <%= favicon_tag 'icons/favicon.ico' %> 
-
     <!-- INSERT GOOGLE ANALYTICS HERE -->
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -12,9 +10,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ren's Portfolio</title>
+    <title><%= current_page.data.title || "Mylene's portfolio" %></title>
     <!-- Comment this out when meta tags configured -->
-    <%# <%= display_meta_tags %> 
+    <%= display_meta_tags %>
+
+    <%= favicon_tag 'icons/favicon.ico' %> 
+
     <%= stylesheet_link_tag "app" %>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
