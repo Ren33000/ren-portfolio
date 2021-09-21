@@ -4,6 +4,7 @@
   image: "https://res.cloudinary.com/ren33000/image/upload/v1632050504/midorin_hav35c.png"
   github: https://github.com/HundiBar/Midorin
   url: https://www.midorin.one/
+  youtube: https://youtu.be/z-8DkUq4SyA?t=2305
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
@@ -16,6 +17,7 @@
   image: CGL.png
   github: https://github.com/HundiBar/central-gaijin-library
   url: http://cgl-hundibar.herokuapp.com/
+  youtube: https://youtu.be/V3R7pNjc1dY?t=855
   tags:
     - devicon-rails-plain-wordmark
     - devicon-postgresql-plain-wordmark
