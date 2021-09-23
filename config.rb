@@ -24,7 +24,7 @@ activate :external_pipeline,
          command: build? ? 'npm run build' : 'npm run start',
          source: 'dist',
          latency: 1
-         
+
 activate :metaman, host: 'https://www.ren33000.com/'
 
 page '/*.xml',  layout: false
