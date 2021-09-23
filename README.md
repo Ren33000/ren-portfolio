@@ -1,4 +1,22 @@
-# Middleman Boilerplate
+
+<h1 align="center">ren33000.com </h1>
+<h3 align="center">My developer portfolio</h3>
+
+![Banner](https://github.com/Ren33000/ren-portfolio/blob/master/source/assets/images/banner.jpg)
+
+
+## Technologies
+- Middleman
+- Bootstrap
+- AOS library
+
+## URL
+[Website](https://www.ren33000.com/)
+
+	
+
+
+# Middleman Boilerplate 
 A simple way to build static pages with a Rails feel.
 
 ## Using
