@@ -133,6 +133,8 @@ GEM
       middleman-core (>= 4.0)
     middleman-gh-pages (0.4.1)
       rake (> 0.9.3)
+    middleman-meta-tags (0.7.0)
+      middleman-core (>= 3.0.0)
     middleman-metaman (0.1.11)
       middleman-core (>= 4.2.1)
     mime-types (3.3.1)
@@ -236,6 +238,7 @@ DEPENDENCIES
   middleman-autoprefixer
   middleman-dotenv
   middleman-gh-pages
+  middleman-meta-tags
   middleman-metaman
   rake
   rspec

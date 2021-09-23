@@ -24,6 +24,8 @@ activate :external_pipeline,
          command: build? ? 'npm run build' : 'npm run start',
          source: 'dist',
          latency: 1
+         
+activate :metaman, host: 'https://www.ren33000.com/'
 
 page '/*.xml',  layout: false
 page '/*.json', layout: false
@@ -42,4 +44,3 @@ configure :build do
   activate :relative_assets
 end
 
-activate :metaman, host: 'https://www.ren33000.com/'
