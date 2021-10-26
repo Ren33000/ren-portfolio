@@ -33,7 +33,6 @@ li {
   }
 
 h3 {
-  
     background-image: linear-gradient(to right, #0000,#3a362f, #ee9b2e, #EB5C33);
     -webkit-background-clip: text; 
         background-clip: text; 
@@ -43,12 +42,11 @@ h3 {
     background-position: -100%;  
   
 
-@keyframes animatedText{
-  to{
-    background-position: 100%; 
-    }
-}
-
+  @keyframes animatedText{
+    to{
+      background-position: 100%; 
+      }
+  }
 }
 
 h2 {

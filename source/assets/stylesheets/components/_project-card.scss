@@ -10,7 +10,7 @@
   border-radius: 5px;
   box-shadow: 0 0 15px #2b2a29;
   position: relative;
-  margin-bottom: 7em;
+  margin-bottom: 10em;
 }
 
 .card-description {
@@ -128,3 +128,10 @@
   }
 }
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .card-description {
+    bottom: -260px;
+    height: 370px; 
+  }
+}
