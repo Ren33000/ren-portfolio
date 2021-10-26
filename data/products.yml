@@ -1,3 +1,13 @@
+- name: Pack Hallyu
+  description: Website of a French travel agency for South Korea (Hallyu group tour). Wordpress Avada.
+  position: Front-end developer
+  image: "https://res.cloudinary.com/ren33000/image/upload/v1635210894/PackHallyu_gn2scw.png"
+  github: https://github.com/Ren33000
+  url: https://packhallyu.com/
+  tags:
+    - devicon-wordpress-plain
+   
+
 - name: Midorin
   description: A mobile app to help you taking care of your plants. 
   position: Project-manager
